@@ -46,19 +46,28 @@ to the domain — remediated by setting quota to 0
 
 ## Problems Encountered & Fixed
 | Problem | Cause | Fix |
+
 | Black screen on VM boot | EFI conflict with boot order | Disabled EFI, set optical as first boot |
+
 | Internet lost after static IP | IP didn't match VirtualBox NAT range | Created NAT Network, updated IP range |
+
 | TPM 2.0 error Windows 11 | EFI settings triggering hardware check | Registry bypass via LabConfig key |
+
 | Client couldn't get IP | DC01 not running, no DHCP available | Always start DC01 before Client01 |
+
 | VirtualBox DHCP conflict | Two DHCP servers on same network | Disabled VirtualBox built in DHCP |
+
 | Domain join with wrong credentials | Used standard user not Administrator | Used Administrator credentials |
 
 ## PowerShell Scripts
 | Script | Purpose |
 |---|---|
 | create-users.ps1 | Creates 20 AD users across 5 OUs |
+
 | add-group-members.ps1 | Adds users to security groups |
+
 | verify-groups.ps1 | Verifies group membership |
+
 | helpdesk-tasks.ps1 | Common helpdesk AD tasks |
 
 ## Full Documentation
