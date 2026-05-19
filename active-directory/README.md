@@ -72,7 +72,7 @@ to the domain — remediated by setting quota to 0
 
 ## Full Documentation
 Complete writeup with screenshots available at:
-https://www.notion.so/Project-1-Active-Directory-3594b835185080c380b5ce035bfb0a15?source=copy_link
+https://burnt-hardcover-86e.notion.site/Home-Labs-3594b835185080dfb924fb719696888e?source=copy_link
 
 ## Key Concepts Learned
 - Active Directory architecture and components
