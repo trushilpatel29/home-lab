@@ -1,4 +1,4 @@
-# Active Directory Lab
+# Project 1 - Active Directory Lab
 
 ## Overview
 Deployed a fully functioning Active Directory 
@@ -39,24 +39,21 @@ joined to the domain.
 - Helpdesk tasks — password resets, account 
   management, user creation, OU management
 
-## Security Finding
-Discovered default MachineAccountQuota allows 
-regular domain users to join up to 10 computers 
-to the domain — remediated by setting quota to 0
+## Security Findings
+**Finding 1 - MachineAccountQuota Misconfiguration**
+Default value of 10 allows regular domain users to join up to 10 computers to the domain without admin credentials. Remediated by setting quota to 0 via PowerShell.
+
+**Finding 2 - Account Lockout Policy Not Configured**
+Default threshold of 0 allows unlimited login attempts — brute force vulnerability. Configured Account Lockout Policy via Default Domain Policy GPO with threshold set to 3 attempts.
 
 ## Problems Encountered & Fixed
 | Problem | Cause | Fix |
-
+|---|---|---|
 | Black screen on VM boot | EFI conflict with boot order | Disabled EFI, set optical as first boot |
-
 | Internet lost after static IP | IP didn't match VirtualBox NAT range | Created NAT Network, updated IP range |
-
 | TPM 2.0 error Windows 11 | EFI settings triggering hardware check | Registry bypass via LabConfig key |
-
 | Client couldn't get IP | DC01 not running, no DHCP available | Always start DC01 before Client01 |
-
 | VirtualBox DHCP conflict | Two DHCP servers on same network | Disabled VirtualBox built in DHCP |
-
 | Domain join with wrong credentials | Used standard user not Administrator | Used Administrator credentials |
 
 ## PowerShell Scripts
@@ -66,6 +63,16 @@ to the domain — remediated by setting quota to 0
 | add-group-members.ps1 | Adds users to security groups |
 | verify-groups.ps1 | Verifies group membership |
 | helpdesk-tasks.ps1 | Common helpdesk AD tasks |
+| security-fixes.ps1 | AD security misconfigurations identified and fixed | 
+
+All can be found in Scripts Folder.
+
+## AI Tools Used
+Claude AI (Anthropic) used as a troubleshooting and 
+learning aid throughout this project including network 
+diagnostics, PowerShell scripting and identifying 
+security misconfigurations. All solutions were tested, 
+verified and understood independently.
 
 ## Full Documentation
 Complete writeup with screenshots available at:
