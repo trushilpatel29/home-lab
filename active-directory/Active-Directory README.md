@@ -63,11 +63,8 @@ to the domain — remediated by setting quota to 0
 | Script | Purpose |
 |---|---|
 | create-users.ps1 | Creates 20 AD users across 5 OUs |
-
 | add-group-members.ps1 | Adds users to security groups |
-
 | verify-groups.ps1 | Verifies group membership |
-
 | helpdesk-tasks.ps1 | Common helpdesk AD tasks |
 
 ## Full Documentation
