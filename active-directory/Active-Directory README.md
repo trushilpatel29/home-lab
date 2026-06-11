@@ -52,7 +52,6 @@ Default threshold of 0 allows unlimited login attempts — brute force vulnerabi
 | Black screen on VM boot | EFI conflict with boot order | Disabled EFI, set optical as first boot |
 | Internet lost after static IP | IP didn't match VirtualBox NAT range | Created NAT Network, updated IP range |
 | TPM 2.0 error Windows 11 | EFI settings triggering hardware check | Registry bypass via LabConfig key |
-| Client couldn't get IP | DC01 not running, no DHCP available | Always start DC01 before Client01 |
 | VirtualBox DHCP conflict | Two DHCP servers on same network | Disabled VirtualBox built in DHCP |
 | Domain join with wrong credentials | Used standard user not Administrator | Used Administrator credentials |
 
