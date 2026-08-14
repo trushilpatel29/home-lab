@@ -51,7 +51,7 @@ then diagnosed and fixed it:
 | gpresult access denied | Writing to C:\ root needs elevated permissions | Saved report to user Desktop |
 | gpresult path not found in PowerShell | %userprofile% is CMD syntax, not PowerShell | Used full path |
 
-## Key Concepts Learned
+## Key Concepts Learnt
 - Password policy can only be set via Default Domain 
   Policy or Fine-Grained Password Policies
 - Difference between User and Computer Configuration
@@ -76,4 +76,4 @@ and understood independently.
 Complete writeup with screenshots available at:
 https://burnt-hardcover-86e.notion.site/Project-2-Group-Policy-3594b8351850801c8b38cc6cb2e74ba7?source=copy_link
 
-## Status: ✅ Complete
+
