@@ -52,25 +52,16 @@ then diagnosed and fixed it:
 | gpresult path not found in PowerShell | %userprofile% is CMD syntax, not PowerShell | Used full path |
 
 ## Key Concepts Learnt
-- Password policy can only be set via Default Domain 
-  Policy or Fine-Grained Password Policies
+- Password policy can only be set via Default Domain Policy or Fine-Grained Password Policies
 - Difference between User and Computer Configuration
-- Difference between Policies (enforced) and Preferences 
-  (changeable)
-- User Configuration policies must be linked where user 
-  accounts are located
-- Security Filtering controls which users/computers a 
-  GPO applies to
+- Difference between Policies (enforced) and Preferences (changeable)
+- User Configuration policies must be linked where user accounts are located
+- Security Filtering controls which users/computers a GPO applies to
 - GPO troubleshooting using gpupdate and gpresult
-- Environment variable syntax differs between Command 
-  Prompt and PowerShell
+- Environment variable syntax differs between Command Prompt and PowerShell
 
 ## AI Tools Used
-Claude AI (Anthropic) used as a troubleshooting and 
-learning aid throughout this project including 
-diagnosing GPO application issues and explaining Group 
-Policy concepts. All solutions were tested, verified 
-and understood independently.
+Claude AI used as a troubleshooting and learning aid throughout this project including diagnosing GPO application issues and explaining Group Policy concepts. All solutions were tested, verified and understood independently.
 
 ## Full Documentation
 Complete writeup with screenshots available at:
