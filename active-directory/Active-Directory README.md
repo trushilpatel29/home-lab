@@ -77,7 +77,7 @@ verified and understood independently.
 Complete writeup with screenshots available at:
 https://burnt-hardcover-86e.notion.site/Project-1-Active-Directory-3594b835185080c380b5ce035bfb0a15?source=copy_link
 
-## Key Concepts Learned
+## Key Concepts Learnt
 - Active Directory architecture and components
 - DNS dependency for AD functionality
 - DHCP scope configuration and authorisation
