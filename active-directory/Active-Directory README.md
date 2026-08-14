@@ -66,17 +66,6 @@ Default threshold of 0 allows unlimited login attempts — brute force vulnerabi
 
 All can be found in Scripts Folder.
 
-## AI Tools Used
-Claude AI (Anthropic) used as a troubleshooting and 
-learning aid throughout this project including network 
-diagnostics, PowerShell scripting and identifying 
-security misconfigurations. All solutions were tested, 
-verified and understood independently.
-
-## Full Documentation
-Complete writeup with screenshots available at:
-https://burnt-hardcover-86e.notion.site/Project-1-Active-Directory-3594b835185080c380b5ce035bfb0a15?source=copy_link
-
 ## Key Concepts Learnt
 - Active Directory architecture and components
 - DNS dependency for AD functionality
@@ -87,3 +76,14 @@ https://burnt-hardcover-86e.notion.site/Project-1-Active-Directory-3594b83518508
 - Domain join process and requirements
 - MachineAccountQuota security misconfiguration
 - Troubleshooting methodology for VM environments
+
+## AI Tools Used
+Claude AI (Anthropic) used as a troubleshooting and 
+learning aid throughout this project including network 
+diagnostics, PowerShell scripting and identifying 
+security misconfigurations. All solutions were tested, 
+verified and understood independently.
+
+## Full Documentation
+Complete writeup with screenshots available at:
+https://burnt-hardcover-86e.notion.site/Project-1-Active-Directory-3594b835185080c380b5ce035bfb0a15?source=copy_link
