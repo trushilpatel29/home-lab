@@ -78,7 +78,7 @@ All can be found in Scripts Folder.
 - Troubleshooting methodology for VM environments
 
 ## AI Tools Used
-Claude AI (Anthropic) used as a troubleshooting and 
+Claude AI used as a troubleshooting and 
 learning aid throughout this project including network 
 diagnostics, PowerShell scripting and identifying 
 security misconfigurations. All solutions were tested, 
